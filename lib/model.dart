@@ -1,39 +1,3 @@
-// class VideoInfo {
-//   final PlayInfo play;
-
-//   VideoInfo({required this.play});
-
-//   factory VideoInfo.fromJson(Map<String, dynamic> json) {
-//     return VideoInfo(
-//       play: PlayInfo.fromJson(json['play']),
-//     );
-//   }
-// }
-
-// class PlayInfo {
-//   final HlsInfo hls;
-
-//   PlayInfo({required this.hls});
-
-//   factory PlayInfo.fromJson(Map<String, dynamic> json) {
-//     return PlayInfo(
-//       hls: HlsInfo.fromJson(json['hls']),
-//     );
-//   }
-// }
-
-// class HlsInfo {
-//   final String link;
-
-//   HlsInfo({required this.link});
-
-//   factory HlsInfo.fromJson(Map<String, dynamic> json) {
-//     return HlsInfo(
-//       link: json['link'],
-//     );
-//   }
-// }
-
 class Video {
   Play? play;
 
